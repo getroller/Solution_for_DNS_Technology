@@ -1,0 +1,14 @@
+[2024-10-26T06:39:09.274+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ssh_log_analysis.analyze_logs manual__2024-10-26T06:39:08.267520+00:00 [queued]>
+[2024-10-26T06:39:09.282+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ssh_log_analysis.analyze_logs manual__2024-10-26T06:39:08.267520+00:00 [queued]>
+[2024-10-26T06:39:09.282+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-10-26T06:39:09.296+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): analyze_logs> on 2024-10-26 06:39:08.267520+00:00
+[2024-10-26T06:39:09.302+0000] {standard_task_runner.py:57} INFO - Started process 444 to run task
+[2024-10-26T06:39:09.306+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ssh_log_analysis', 'analyze_logs', 'manual__2024-10-26T06:39:08.267520+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/DAG_log_file_analysis.py', '--cfg-path', '/tmp/tmpp22kmszk']
+[2024-10-26T06:39:09.307+0000] {standard_task_runner.py:85} INFO - Job 61: Subtask analyze_logs
+[2024-10-26T06:39:09.348+0000] {task_command.py:416} INFO - Running <TaskInstance: ssh_log_analysis.analyze_logs manual__2024-10-26T06:39:08.267520+00:00 [running]> on host 0a575922fb59
+[2024-10-26T06:39:09.414+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ssh_log_analysis' AIRFLOW_CTX_TASK_ID='analyze_logs' AIRFLOW_CTX_EXECUTION_DATE='2024-10-26T06:39:08.267520+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-26T06:39:08.267520+00:00'
+[2024-10-26T06:39:09.426+0000] {DAG_log_file_analysis.py:68} INFO - {'5.36.59.76': 6, '112.95.230.3': 24, '123.235.32.19': 7, '191.210.223.172': 1, '106.5.5.195': 6, '103.99.0.122': 6, '187.141.143.180': 46, '104.192.3.34': 1, '60.2.12.12': 5, '183.62.140.253': 276}
+[2024-10-26T06:39:09.427+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-10-26T06:39:09.434+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ssh_log_analysis, task_id=analyze_logs, execution_date=20241026T063908, start_date=20241026T063909, end_date=20241026T063909
+[2024-10-26T06:39:09.479+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-10-26T06:39:09.494+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
