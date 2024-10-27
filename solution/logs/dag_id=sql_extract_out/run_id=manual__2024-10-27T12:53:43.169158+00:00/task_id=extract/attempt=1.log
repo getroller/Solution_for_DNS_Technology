@@ -1,0 +1,13 @@
+[2024-10-27T12:53:46.235+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sql_extract_out.extract manual__2024-10-27T12:53:43.169158+00:00 [queued]>
+[2024-10-27T12:53:46.243+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sql_extract_out.extract manual__2024-10-27T12:53:43.169158+00:00 [queued]>
+[2024-10-27T12:53:46.243+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-10-27T12:53:46.262+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract> on 2024-10-27 12:53:43.169158+00:00
+[2024-10-27T12:53:46.267+0000] {standard_task_runner.py:57} INFO - Started process 71 to run task
+[2024-10-27T12:53:46.272+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'sql_extract_out', 'extract', 'manual__2024-10-27T12:53:43.169158+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/DAG_sql.py', '--cfg-path', '/tmp/tmp8w6g_f09']
+[2024-10-27T12:53:46.277+0000] {standard_task_runner.py:85} INFO - Job 73: Subtask extract
+[2024-10-27T12:53:46.332+0000] {task_command.py:416} INFO - Running <TaskInstance: sql_extract_out.extract manual__2024-10-27T12:53:43.169158+00:00 [running]> on host d556bcf16473
+[2024-10-27T12:53:46.605+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sql_extract_out' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-10-27T12:53:43.169158+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-27T12:53:43.169158+00:00'
+[2024-10-27T12:53:54.373+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-10-27T12:53:54.385+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=sql_extract_out, task_id=extract, execution_date=20241027T125343, start_date=20241027T125346, end_date=20241027T125354
+[2024-10-27T12:53:54.488+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-10-27T12:53:54.658+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

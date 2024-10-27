@@ -4,7 +4,7 @@ This module contains a Python interface for Problem Details for HTTP APIs
 to communicate distinct "problem types" to non-human consumers.
 """
 
-from .lifecycle import ConnexionResponse
+import json
 
 
 def problem(status, title, detail, type=None, instance=None, headers=None, ext=None):
@@ -33,16 +33,28 @@ def problem(status, title, detail, type=None, instance=None, headers=None, ext=N
     :return: error response
     :rtype: ConnexionResponse
     """
-    if not type:
-        type = 'about:blank'
+    from .lifecycle import ConnexionResponse  # prevent circular import
 
-    problem_response = {'type': type, 'title': title, 'detail': detail, 'status': status}
+    if not type:
+        type = "about:blank"
+
+    problem_response = {
+        "type": type,
+        "title": title,
+        "detail": detail,
+        "status": status,
+    }
     if instance:
-        problem_response['instance'] = instance
+        problem_response["instance"] = instance
     if ext:
         problem_response.update(ext)
 
-    mimetype = content_type = 'application/problem+json'
-    return ConnexionResponse(status, mimetype, content_type,
-                             body=problem_response,
-                             headers=headers)
+    mimetype = content_type = "application/problem+json"
+
+    return ConnexionResponse(
+        status,
+        mimetype,
+        content_type,
+        body=json.dumps(problem_response),
+        headers=headers,
+    )

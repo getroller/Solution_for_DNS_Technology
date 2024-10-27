@@ -1,0 +1,402 @@
+[2024-10-27T13:18:13.579+0000] {processor.py:157} INFO - Started process (PID=568) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:18:13.580+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:18:13.582+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:18:13.581+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:18:13.995+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_out']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:18:14.095+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:18:14.094+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:18:14.104+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:18:14.104+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_out to None, run_after=None
+[2024-10-27T13:18:14.129+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.554 seconds
+[2024-10-27T13:18:44.321+0000] {processor.py:157} INFO - Started process (PID=580) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:18:44.322+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:18:44.326+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:18:44.325+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:18:44.725+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_out']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:18:44.774+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:18:44.770+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:18:44.788+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:18:44.788+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_out to None, run_after=None
+[2024-10-27T13:18:44.812+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.498 seconds
+[2024-10-27T13:19:04.768+0000] {processor.py:157} INFO - Started process (PID=592) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:19:04.772+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:19:04.775+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:04.775+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:19:05.343+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:19:05.608+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:05.608+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-27T13:19:05.629+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:05.629+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-27T13:19:05.641+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:05.641+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-27T13:19:05.643+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:05.642+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:19:05.655+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:05.654+0000] {dag.py:2963} INFO - Creating ORM DAG for sql_extract_outr
+[2024-10-27T13:19:05.656+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:05.655+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outr to None, run_after=None
+[2024-10-27T13:19:05.687+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.922 seconds
+[2024-10-27T13:19:06.718+0000] {processor.py:157} INFO - Started process (PID=594) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:19:06.718+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:19:06.721+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:06.721+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:19:07.128+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:19:07.227+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:07.227+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-27T13:19:07.238+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:07.238+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-27T13:19:07.248+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:07.247+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-27T13:19:07.248+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:07.248+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:19:07.286+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:07.285+0000] {dag.py:2963} INFO - Creating ORM DAG for sql_extract_outrrrrr
+[2024-10-27T13:19:07.291+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:07.290+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:19:07.333+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.619 seconds
+[2024-10-27T13:19:37.639+0000] {processor.py:157} INFO - Started process (PID=606) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:19:37.640+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:19:37.643+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:37.643+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:19:38.071+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:19:38.095+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:38.094+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:19:38.106+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:19:38.105+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:19:38.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.490 seconds
+[2024-10-27T13:20:08.402+0000] {processor.py:157} INFO - Started process (PID=618) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:20:08.403+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:20:08.406+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:20:08.406+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:20:08.849+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:20:08.873+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:20:08.873+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:20:08.884+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:20:08.884+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:20:08.904+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.506 seconds
+[2024-10-27T13:20:39.126+0000] {processor.py:157} INFO - Started process (PID=630) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:20:39.127+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:20:39.128+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:20:39.128+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:20:39.518+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:20:39.540+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:20:39.540+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:20:39.550+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:20:39.550+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:20:39.570+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.447 seconds
+[2024-10-27T13:21:09.729+0000] {processor.py:157} INFO - Started process (PID=642) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:21:09.731+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:21:09.732+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:21:09.732+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:21:10.367+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:21:10.400+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:21:10.399+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:21:10.411+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:21:10.411+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:21:10.428+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.702 seconds
+[2024-10-27T13:21:40.686+0000] {processor.py:157} INFO - Started process (PID=654) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:21:40.688+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:21:40.689+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:21:40.688+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:21:41.068+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:21:41.088+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:21:41.087+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:21:41.099+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:21:41.098+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:21:41.114+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.433 seconds
+[2024-10-27T13:22:11.419+0000] {processor.py:157} INFO - Started process (PID=666) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:22:11.427+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:22:11.428+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:22:11.427+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:22:11.822+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:22:11.845+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:22:11.844+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:22:11.855+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:22:11.855+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:22:11.884+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.468 seconds
+[2024-10-27T13:22:42.196+0000] {processor.py:157} INFO - Started process (PID=678) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:22:42.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:22:42.198+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:22:42.198+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:22:42.759+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:22:42.797+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:22:42.797+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:22:42.809+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:22:42.808+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:22:42.850+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.658 seconds
+[2024-10-27T13:23:13.413+0000] {processor.py:157} INFO - Started process (PID=690) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:13.418+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:23:13.419+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:13.419+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:13.833+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:13.856+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:13.855+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:23:13.865+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:13.865+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:23:13.880+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.471 seconds
+[2024-10-27T13:23:44.059+0000] {processor.py:157} INFO - Started process (PID=702) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:44.061+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:23:44.061+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:44.061+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:44.443+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:44.463+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:44.462+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:23:44.472+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:44.472+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:23:44.488+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.432 seconds
+[2024-10-27T13:23:49.545+0000] {processor.py:157} INFO - Started process (PID=710) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:49.547+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:23:49.548+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:49.547+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:50.076+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:50.097+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:50.097+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:23:50.108+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:50.108+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:23:50.130+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.599 seconds
+[2024-10-27T13:23:52.173+0000] {processor.py:157} INFO - Started process (PID=712) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:52.174+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:23:52.175+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:52.175+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:52.587+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:23:52.615+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:52.614+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:23:52.626+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:23:52.626+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:23:52.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.483 seconds
+[2024-10-27T13:24:23.429+0000] {processor.py:157} INFO - Started process (PID=725) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:24:23.431+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:24:23.432+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:24:23.432+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:24:24.001+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:24:24.021+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:24:24.021+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:24:24.033+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:24:24.032+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:24:24.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.625 seconds
+[2024-10-27T13:24:36.132+0000] {processor.py:157} INFO - Started process (PID=729) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:24:36.134+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:24:36.134+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:24:36.134+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:24:36.533+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:24:36.555+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:24:36.554+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:24:36.565+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:24:36.565+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:24:36.582+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.454 seconds
+[2024-10-27T13:25:06.903+0000] {processor.py:157} INFO - Started process (PID=741) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:25:06.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:25:06.905+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:25:06.905+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:25:07.292+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:25:07.317+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:25:07.317+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:25:07.327+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:25:07.327+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:25:07.344+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.444 seconds
+[2024-10-27T13:25:37.579+0000] {processor.py:157} INFO - Started process (PID=753) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:25:37.580+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:25:37.581+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:25:37.581+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:25:37.965+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:25:37.985+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:25:37.984+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:25:37.994+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:25:37.994+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:25:38.013+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.438 seconds
+[2024-10-27T13:26:08.368+0000] {processor.py:157} INFO - Started process (PID=765) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:26:08.369+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:26:08.370+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:26:08.370+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:26:08.776+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:26:08.796+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:26:08.795+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:26:08.807+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:26:08.807+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:26:08.828+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.463 seconds
+[2024-10-27T13:26:39.045+0000] {processor.py:157} INFO - Started process (PID=777) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:26:39.046+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:26:39.047+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:26:39.046+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:26:39.449+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:26:39.468+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:26:39.468+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:26:39.479+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:26:39.479+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:26:39.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.452 seconds
+[2024-10-27T13:27:09.865+0000] {processor.py:157} INFO - Started process (PID=789) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:09.866+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:27:09.867+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:09.867+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:10.261+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:10.280+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:10.280+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:27:10.291+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:10.291+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:27:10.307+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.447 seconds
+[2024-10-27T13:27:40.516+0000] {processor.py:157} INFO - Started process (PID=801) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:40.518+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:27:40.519+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:40.519+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:40.908+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:40.930+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:40.929+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:27:40.947+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:40.946+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:27:40.968+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.459 seconds
+[2024-10-27T13:27:42.002+0000] {processor.py:157} INFO - Started process (PID=803) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:42.002+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:27:42.003+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:42.003+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:42.433+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:42.431+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:27:42.434+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:42.449+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.452 seconds
+[2024-10-27T13:27:51.522+0000] {processor.py:157} INFO - Started process (PID=813) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:51.523+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:27:51.524+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:51.523+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:52.057+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:52.057+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:27:52.058+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:52.073+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.554 seconds
+[2024-10-27T13:27:52.688+0000] {processor.py:157} INFO - Started process (PID=815) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:52.689+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:27:52.689+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:52.689+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:53.083+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:27:53.082+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:27:53.083+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:27:53.101+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.417 seconds
+[2024-10-27T13:28:23.972+0000] {processor.py:157} INFO - Started process (PID=827) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:28:23.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:28:23.975+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:28:23.974+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:28:24.446+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:28:24.446+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:28:24.447+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:28:24.461+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.496 seconds
+[2024-10-27T13:28:54.650+0000] {processor.py:157} INFO - Started process (PID=839) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:28:54.652+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:28:54.653+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:28:54.653+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:28:55.035+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:28:55.034+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:28:55.035+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:28:55.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.405 seconds
+[2024-10-27T13:29:25.294+0000] {processor.py:157} INFO - Started process (PID=851) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:29:25.295+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:29:25.296+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:29:25.296+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:29:25.694+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:29:25.693+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:29:25.694+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:29:25.708+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.418 seconds
+[2024-10-27T13:29:55.889+0000] {processor.py:157} INFO - Started process (PID=863) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:29:55.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:29:55.891+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:29:55.890+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:29:56.264+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:29:56.263+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:29:56.264+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:29:56.280+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.394 seconds
+[2024-10-27T13:30:26.476+0000] {processor.py:157} INFO - Started process (PID=876) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:30:26.479+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:30:26.479+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:30:26.479+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:30:26.862+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:30:26.861+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:30:26.862+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:30:26.878+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.405 seconds
+[2024-10-27T13:30:57.064+0000] {processor.py:157} INFO - Started process (PID=888) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:30:57.065+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:30:57.066+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:30:57.065+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:30:57.451+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:30:57.450+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:30:57.451+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:30:57.465+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.407 seconds
+[2024-10-27T13:31:27.665+0000] {processor.py:157} INFO - Started process (PID=901) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:31:27.667+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:31:27.668+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:31:27.667+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:31:28.051+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:31:28.050+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:31:28.051+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:31:28.066+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.408 seconds
+[2024-10-27T13:31:58.251+0000] {processor.py:157} INFO - Started process (PID=913) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:31:58.252+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:31:58.252+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:31:58.252+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:31:58.664+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:31:58.663+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 119, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:31:58.664+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:31:58.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.431 seconds
+[2024-10-27T13:32:18.842+0000] {processor.py:157} INFO - Started process (PID=925) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:32:18.843+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:32:18.844+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:32:18.843+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:32:19.291+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:32:19.290+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 122, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:32:19.291+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:32:19.305+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.469 seconds
+[2024-10-27T13:32:49.447+0000] {processor.py:157} INFO - Started process (PID=937) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:32:49.448+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:32:49.449+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:32:49.449+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:32:49.845+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:32:49.844+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 122, in <module>
+    python_callable=save_to_csv
+NameError: name 'save_to_csv' is not defined
+[2024-10-27T13:32:49.845+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:32:49.862+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.418 seconds
+[2024-10-27T13:33:06.703+0000] {processor.py:157} INFO - Started process (PID=939) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:06.704+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:33:06.705+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:33:06.705+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:07.239+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:33:07.238+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 122, in <module>
+    python_callable=pro
+NameError: name 'pro' is not defined
+[2024-10-27T13:33:07.239+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:07.254+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.555 seconds
+[2024-10-27T13:33:07.953+0000] {processor.py:157} INFO - Started process (PID=941) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:07.954+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:33:07.955+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:33:07.954+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:08.338+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:33:08.337+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/ggg.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ggg.py", line 122, in <module>
+    python_callable=process_data()
+  File "/opt/airflow/dags/ggg.py", line 102, in process_data
+    ti = kwargs['ti']
+KeyError: 'ti'
+[2024-10-27T13:33:08.338+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:08.354+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.405 seconds
+[2024-10-27T13:33:10.295+0000] {processor.py:157} INFO - Started process (PID=943) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:10.296+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:33:10.296+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:33:10.296+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:10.677+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:10.764+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:33:10.763+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:33:10.773+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:33:10.772+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:33:10.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.503 seconds
+[2024-10-27T13:33:40.974+0000] {processor.py:157} INFO - Started process (PID=955) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:40.975+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:33:40.976+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:33:40.975+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:41.523+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:33:41.544+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:33:41.543+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:33:41.555+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:33:41.555+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:33:41.572+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.602 seconds
+[2024-10-27T13:34:11.731+0000] {processor.py:157} INFO - Started process (PID=968) to work on /opt/airflow/dags/ggg.py
+[2024-10-27T13:34:11.732+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ggg.py for tasks to queue
+[2024-10-27T13:34:11.733+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:34:11.733+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ggg.py
+[2024-10-27T13:34:12.283+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sql_extract_outrrrrr']) retrieved from /opt/airflow/dags/ggg.py
+[2024-10-27T13:34:12.310+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:34:12.309+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-27T13:34:12.325+0000] {logging_mixin.py:154} INFO - [2024-10-27T13:34:12.324+0000] {dag.py:3722} INFO - Setting next_dagrun for sql_extract_outrrrrr to None, run_after=None
+[2024-10-27T13:34:12.345+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ggg.py took 0.617 seconds
