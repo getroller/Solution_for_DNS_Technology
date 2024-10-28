@@ -1,8 +1,12 @@
 import pandas as pd
 from sqlalchemy import create_engine
+import psycopg2
 
 connection_string = 'postgresql://test:test@localhost:5557/test'
 engine = create_engine(connection_string)
+
+# connection_string = 'dbname=test user=test password=test host=localhost port=5557'  <-- Если хост-машина windows, тогда используйте такой вариант
+# engine = psycopg2.connect(connection_string)
 
 queries = {
     "query1": # 1.Общая сумма продаж по каждому продукту за последний квартал 2010 года
