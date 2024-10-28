@@ -20,8 +20,8 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
-    - ~/Solution_for_DNS_Technology/test-task/openssh.log:/opt/airflow/openssh.log
-    - ~/Solution_for_DNS_Technology/solution/outputfiles:/opt/airflow/outputfiles
+    - ./test-task/openssh.log:/opt/airflow/openssh.log
+    - ./solution/outputfiles:/opt/airflow/outputfiles
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
