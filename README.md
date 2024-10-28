@@ -8,20 +8,33 @@
 
 [2 вариант] находится в папке solution (Используется docker compose, написаны Dags под решение каждой задачи)
 
-
 ---
 
 ## Начало работы
+
 Чтобы начать, клонируйте репозиторий:
 
 ```bash
 git clone https://github.com/getroller/Solution_for_DNS_Technology.git
 ```
-## [1 вариант] Если вы не хотите разворачивать Airflow и вам требуются только скрипты, выполните следующие шаги: 
+
+---
+
+## 1 вариант (Если вы не хотите ничего разворачивать и вам требуются только скрипты) выполните следующие шаги: 
 
 1. Перейдите в папку raw_scripts
-2. Собрать образ Docker: docker build ../test-task -t dwh-test
-3. Запустить контейнер Docker: docker run --rm --name dwh-test -e POSTGRES_USER=test -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -p 5557:5432 -d dwh-test 
+
+2. Собрать образ Docker: 
+```bash
+docker build ../test-task -t dwh-test
+```
+
+3. Запустить контейнер Docker: 
+```bash
+docker run --rm --name dwh-test -e POSTGRES_USER=test -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -p 5557:5432 -d dwh-test
+```
+ 
+---
 
 ## [2 вариант] Полный запуск
 
