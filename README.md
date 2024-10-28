@@ -6,7 +6,7 @@
 
 [1 вариант] находится в папке raw_scripts (Если не хотите ничего разворачивать и требуются только сырые скрипты) 
 
-[2 вариант] находится в папке solution (Для решения задач используются docker compose и Airflow)
+[2 вариант] находится в папке solution (Для решения задач используются docker compose и Airflow)(recommended)
 
 ---
 
@@ -47,9 +47,11 @@ docker build ../test-task -t dwh-test
 docker run --rm --name dwh-test -e POSTGRES_USER=test -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -p 5557:5432 -d dwh-test
 ```
 
+4. Все готово, запускайте скрипты!
+
 ---
 
-## [2 вариант] Полный запуск
+## [2 вариант] Полный запуск (recommended)
 
 1. Перейдите в папку solution
 
@@ -63,10 +65,15 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
-4. Соберите и запустите контейнеры с помощью Docker Compose:
+4. Соберите и запустите контейнеры с помощью Docker Compose (Ожидание запуска ~3 min):
 ```bash
 docker-compose up --build -d 
 ```
+
+5. Все готово!   
+Переходите на localhost:8080 и запускайте dag's  
+Результат 1 задания будет отображен в логах Airflow  
+Результат 2 задания приходит в папку solution/outputfiles  
 
 ---
 

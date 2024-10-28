@@ -5,7 +5,7 @@ import psycopg2
 connection_string = 'postgresql://test:test@localhost:5557/test'
 engine = create_engine(connection_string)
 
-# connection_string = 'dbname=test user=test password=test host=localhost port=5557'  <-- Если хост-машина windows, тогда используйте такой вариант
+# connection_string = 'dbname=test user=test password=test host=localhost port=5557'  <<<<<-- Если хост-машина Windows, тогда используйте такой вариант
 # engine = psycopg2.connect(connection_string)
 
 queries = {
