@@ -33,15 +33,29 @@ docker build ../test-task -t dwh-test
 ```bash
 docker run --rm --name dwh-test -e POSTGRES_USER=test -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -p 5557:5432 -d dwh-test
 ```
- 
+
 ---
 
 ## [2 вариант] Полный запуск
 
 1. Перейдите в папку solution.
-2. Сделайте скрипт setup.sh исполняемым: chmod +x setup.sh
-3. Запустите скрипт для установки зависимостей и подготовки окружения: ./setup.sh
-4. Соберите и запустите все контейнеры с помощью Docker Compose: docker-compose up --build -d      -для динамической сборки образа из test-task, в которой база dwh-test и airflow 2 7 3
+
+2. Сделайте скрипт setup.sh исполняемым: 
+```bash
+chmod +x setup.sh
+```
+
+3. Запустите скрипт для установки зависимостей и подготовки окружения: 
+```bash
+./setup.sh
+```
+
+4. Соберите и запустите все контейнеры с помощью Docker Compose:
+bash``` 
+docker-compose up --build -d 
+```
+
+---
 
 ## Дополнительная информация
 Все работает автоматически ничего настраивать не нужно
