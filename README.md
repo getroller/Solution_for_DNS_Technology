@@ -12,10 +12,23 @@
 
 ## Начало работы
 
-Чтобы начать, клонируйте репозиторий:
+1. Чтобы начать, клонируйте репозиторий:
 
 ```bash
 git clone https://github.com/getroller/Solution_for_DNS_Technology.git
+```
+2. В корне репозитория, необходимо установить зависимоти
+
+```bash
+python -m venv venv 
+```
+
+```bash
+source venv/bin/activate
+```
+
+```bash
+pip install -r requirements.txt
 ```
 
 ---
