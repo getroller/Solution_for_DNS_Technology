@@ -1,0 +1,12 @@
+venv/
+.env
+config/
+dags/
+logs/
+plugins/
+outputfiles/
+*.log
+!openssh.log
+*.tmp
+__pycache__/
+*.pyc

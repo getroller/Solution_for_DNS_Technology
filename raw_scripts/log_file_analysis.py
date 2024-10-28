@@ -1,6 +1,6 @@
 import re
 
-log_file = 'test-task/openssh.log'
+log_file = '../test-task/openssh.log'
 user = 'root' # Можно указать любого пользователя
 
 dict_sshd = {} # Словарь, где каждым ключем является sshd, а значением - список из логов принадлежащих одному процессу sshd

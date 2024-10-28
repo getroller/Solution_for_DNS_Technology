@@ -1,10 +1,8 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-connection_string = 'postgresql://getroller:getroller@localhost:5556/getroller'
+connection_string = 'postgresql://test:test@localhost:5557/test'
 engine = create_engine(connection_string)
-
-
 
 queries = {
     "query1": # 1.Общая сумма продаж по каждому продукту за последний квартал 2010 года
@@ -78,9 +76,11 @@ queries = {
             order by cumulative_sales; """ # Можно выбрать любую категорию из 4             
 }
 
+def extract_output(queries):
+    for title, query in queries.items():
+        df = pd.read_sql(query, engine)
+        df.to_csv(f'output_sql/{title}.csv', index=False)  
+        # df.to_json(f'output_sql/{title}.json', orient='records', lines=True)  
+        # df.to_excel(f'output_sql/{title}.xlsx', index=False) 
 
-for title, query in queries.items():
-    df = pd.read_sql(query, engine)
-    df.to_csv(f'raw_scripts/output_sql/{title}.csv', index=False)  
-    # df.to_json(f'raw_scripts/output_task1_sql/{title}.json', orient='records', lines=True)  
-    # df.to_excel(f'raw_scripts/output_task1_sql/{title}.xlsx', index=False)  
+extract_output(queries) 

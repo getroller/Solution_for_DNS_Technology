@@ -1,21 +1,17 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.utils.dates import days_ago
+from datetime import datetime, timedelta, timezone
 from sqlalchemy import create_engine
 import pandas as pd
 
+connection_string = 'postgresql://test:test@dwh-test:5432/test'
+engine = create_engine(connection_string)
 
 default_args = {
     'owner': 'airflow',
-    'start_date': days_ago(1),
+    'start_date': datetime.now(timezone.utc) - timedelta(days=1),
+    'provide_context': True
 }
-
-
-
-connection_string = 'postgresql://getroller:getroller@dbget/getroller'
-engine = create_engine(connection_string)
-
-
 
 queries = {
     "query1": # 1.Общая сумма продаж по каждому продукту за последний квартал 2010 года
@@ -89,23 +85,29 @@ queries = {
             order by cumulative_sales; """ # Можно выбрать любую категорию из 4             
 }
 
-def extract_data():
+
+def extract_data(**kwargs):
+    ti = kwargs['ti']
+    all_data = {}
     for title, query in queries.items():
         df = pd.read_sql(query, engine)
-        df.to_csv(f'/opt/airflow/outputfiles/{title}.csv', index=False)  
-        # df.to_json(f'raw_scripts/output_task1_sql/{title}.json', orient='records', lines=True)  
-        # df.to_excel(f'raw_scripts/output_task1_sql/{title}.xlsx', index=False)  
+        all_data[title] = df
+    ti.xcom_push(key='all_data', value=all_data)  
 
 
+def output_data(**kwargs):
+    ti = kwargs['ti']
+    all_data = ti.xcom_pull(key='all_data', task_ids='extract_data_task')  
+    for title, df in all_data.items():
+        df.to_csv(f'/opt/airflow/outputfiles/{title}.csv', index=False)
+        # df.to_json(f'/opt/airflow/outputfiles/{title}.json', orient='records', lines=True)  
+        # df.to_excel(f'/opt/airflow/outputfiles/{title}.xlsx', index=False) 
 
 
 with DAG('sql_extract_out', default_args=default_args, schedule=None, catchup=False) as dag:
+    
+    extract_data_task = PythonOperator(task_id='extract_data_task', python_callable=extract_data)
 
-    extract_task = PythonOperator(task_id='extract', python_callable=extract_data)
+    output_data_task = PythonOperator(task_id='output_data_task', python_callable=output_data)
 
-    # output_task = PythonOperator(task_id='output', python_callable=output_data)
-
-    extract_task 
-
-
-
+    extract_data_task >> output_data_task

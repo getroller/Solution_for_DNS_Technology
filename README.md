@@ -1,27 +1,40 @@
-собираем докер образ из solution через test -task
+# Тестовое задание 
 
-используйте docker-compose up --build для сборки образа из test-task
+## Описание
 
-делаем без gitignore
+Доступны два варианта решений: 
+[1 вариант] находится в папке solution (Используется docker compose, написаны Dags под решение каждой задачи)
+[2 вариант] находится в папке raw_scripts (Если не хотите ничего разворачивать)
+
+---
+
+## Начало работы
+
+# Клонирование репозитория
+Чтобы начать, клонируйте репозиторий:
+
+```bash
+git clone <URL репозитория>
+```
+# [2 вариант] Если вы не хотите разворачивать Airflow и вам требуются только скрипты, выполните следующие шаги: 
+
+1. Перейдите в папку raw_scripts
+2. Собрать образ Docker: docker build ../test-task -t dwh-test
+3. Запустить контейнер Docker: docker run --rm --name dwh-test -e POSTGRES_USER=test -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -p 5557:5432 -d dwh-test 
+
+# [1 вариант] Полный запуск
+
+1. Перейдите в папку solution.
+2. Сделайте скрипт setup.sh исполняемым: chmod +x setup.sh
+3. Запустите скрипт для установки зависимостей и подготовки окружения: ./setup.sh
+4. Соберите и запустите все контейнеры с помощью Docker Compose: docker-compose up --build -d      -для динамической сборки образа из test-task, в которой база dwh-test и airflow 2 7 3
+
+## Дополнительная информация
+Все работает автоматически ничего настраивать не нужно
 
 
 
-mkdir -p ./dags ./logs ./plugins ./config
-echo -e "AIRFLOW_UID=$(id -u)" > .env
 
-
-docker compose up airflow-init
-
-
-если не хочется разворачивать готовые скрипты находятся в папке или резьтаты вывода
-
-
-
-
-sudo apt-get update
-sudo apt-get install build-essential совместимость
-
-это обязательно добавить в mkdir  - ~/Solution_for_DNS_Technology/solution/outputfiles:/opt/airflow/outputfiles иначе прав не будет
 
 
 

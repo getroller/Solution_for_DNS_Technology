@@ -51,17 +51,19 @@ services:
       - airflow_network
 
 
-  dbget:
+  dwh-test:
     image: dwh-test
+    build:
+      context: ../test-task
     restart: always
     environment:
-      POSTGRES_USER: getroller
-      POSTGRES_PASSWORD: getroller
-      POSTGRES_DB: getroller
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: test
     ports:
       - "5556:5432"
     volumes:
-      - postgres-db-volume_user:/var/lib/postgresql/data
+      - postgres-db-volume_test:/var/lib/postgresql/data
     networks:
       - airflow_network
 
@@ -275,5 +277,5 @@ networks:
 
 volumes:
   postgres-db-volume:
-  postgres-db-volume_user:
+  postgres-db-volume_test:
 
