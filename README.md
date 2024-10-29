@@ -70,10 +70,10 @@ chmod +x setup.sh
 docker-compose up --build -d 
 ```
 
-5. Все готово!   
+5. Все готово!  
 Переходите на localhost:8080 и запускайте DAG's  
-Результат 1 задания будет отображен в логах Airflow  
-Результат 2 задания приходит в папку solution/outputfiles  
+Результат 1 задания приходит в папку solution/outputfiles  
+Результат 2 задания будет отображен в логах Airflow  
 
 ---
 
